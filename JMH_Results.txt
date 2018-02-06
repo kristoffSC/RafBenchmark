@@ -60,3 +60,13 @@ Result "org.home.benchmark.jmh.JmhBenchmark.benchamrkWriteDirectInt":
      p(99,9990) = 340821,028 ns/op
      p(99,9999) = 2382223,335 ns/op
     p(100,0000) = 2387968,000 ns/op
+
+
+######################################################################################
+Results afte Test refactor
+ # Run complete. Total time: 00:01:40
+
+Benchmark                                             Mode  Cnt  Score    Error  Units
+RandomAccessWriteFileTest.benchamrkWriteConvertedInt  avgt    5  0,004 ±  0,001  ms/op
+RandomAccessWriteFileTest.benchamrkWriteDirectInt     avgt    5  0,011 ±  0,001  ms/op
+    
